@@ -1,6 +1,9 @@
 @import "partials/variables";
+@import "partials/common";
 
 body {
 	font-family: $brand_font;
-	background-image: url("/dist/img/recognition.jpg");
+	font-size: $font_size;
+	color: $brand_color;
 }
+

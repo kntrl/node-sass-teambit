@@ -1,4 +1,56 @@
+/* RESETS */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* layout */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* margins */
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+/*txt alignment*/
+.txt-center {
+  text-align: center;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* COLORS */
+.primary {
+  background-color: #ffe7d2;
+}
+
+.secondary {
+  background-color: #2e4790;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-image: url("/dist/img/recognition.jpg");
+  font-size: 16px;
+  color: #4d3a1d;
 }

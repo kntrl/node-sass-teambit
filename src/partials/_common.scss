@@ -1,0 +1,49 @@
+/* RESETS */
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* layout */
+.container {
+	max-width: $container_maxwidth;
+	margin: 0 auto;
+}
+/* margins */
+.ml-auto {
+	margin-left: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+/*txt alignment*/
+.txt-center {
+	text-align: center;
+}
+
+/* BUTTONS */
+.btn {
+	padding: $btn_padding;
+	border-radius: $btn_radius;
+}
+
+/* COLORS */
+.primary {
+	background-color: $primary;
+}
+
+.secondary {
+	background-color: $secondary;
+}
