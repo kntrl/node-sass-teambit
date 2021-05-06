@@ -14,6 +14,9 @@ a {
 	color: inherit;
 }
 
+img {
+	width: 100%;
+}
 /* layout */
 .container {
 	max-width: $container_maxwidth;
@@ -32,6 +35,11 @@ a {
 	margin-right: auto;
 }
 
+/* TYPOGRAPHY */
+
+h1 {
+	font-size: calc(#{$font_size}* 3);
+}
 /*txt alignment*/
 .txt-center {
 	text-align: center;
@@ -42,10 +50,19 @@ a {
 	padding: $btn_padding;
 	border: 1px solid;
 	border-radius: $btn_radius;
+	font-weight: bold;
+	cursor: pointer;
 	img {
 		width: calc(#{$font_size}* 1.5);
 		vertical-align: middle;
 		margin-right: 5px;
+		padding-bottom: 2px;
+	}
+
+	&.secondary {
+		background-color: $secondary;
+		color: #fff;
+		border-color: $secondary;
 	}
 }
 

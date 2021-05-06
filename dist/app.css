@@ -14,6 +14,10 @@ a {
   color: inherit;
 }
 
+img {
+  width: 100%;
+}
+
 /* layout */
 .container {
   max-width: 1440px;
@@ -33,6 +37,11 @@ a {
   margin-right: auto;
 }
 
+/* TYPOGRAPHY */
+h1 {
+  font-size: calc(16px* 3);
+}
+
 /*txt alignment*/
 .txt-center {
   text-align: center;
@@ -40,14 +49,22 @@ a {
 
 /* BUTTONS */
 .btn {
-  padding: 5px 10px;
+  padding: 6px 10px;
   border: 1px solid;
   border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
 }
 .btn img {
   width: calc(16px* 1.5);
   vertical-align: middle;
   margin-right: 5px;
+  padding-bottom: 2px;
+}
+.btn.secondary {
+  background-color: #2e4790;
+  color: #fff;
+  border-color: #2e4790;
 }
 
 /* COLORS */
@@ -76,6 +93,31 @@ header .menu li {
 }
 header .menu .btn {
   color: #2e4790;
+}
+
+main > div,
+main > section {
+  padding: 4rem 0px;
+}
+main .jumbotron {
+  display: flex;
+}
+main .jumbotron .teaser,
+main .jumbotron .illustration {
+  flex-basis: 50%;
+}
+main .jumbotron .teaser .sub-title,
+main .jumbotron .illustration .sub-title {
+  font-size: 1.35rem;
+  margin: 1rem 0 3rem;
+}
+main .jumbotron .teaser .sign-up,
+main .jumbotron .illustration .sign-up {
+  font-size: calc(13.6px);
+}
+main .jumbotron .teaser .sign-up p,
+main .jumbotron .illustration .sign-up p {
+  padding-top: 1rem;
 }
 
 body {

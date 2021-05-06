@@ -1,0 +1,24 @@
+main {
+	> div,
+	> section {
+		padding: $content-block-padding 0px;
+	}
+
+	.jumbotron {
+		display: flex;
+		.teaser,
+		.illustration {
+			flex-basis: 50%;
+			.sub-title {
+				font-size: 1.35rem;
+				margin: 1rem 0 3rem;
+			}
+			.sign-up {
+				font-size: calc(#{$font_size * 0.85});
+				p {
+					padding-top: 1rem;
+				}
+			}
+		}
+	}
+}
