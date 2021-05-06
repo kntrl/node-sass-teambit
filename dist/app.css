@@ -20,6 +20,10 @@ a {
   margin: 0 auto;
 }
 
+.is-divider {
+  border-bottom: 1px solid #58402c;
+}
+
 /* margins */
 .ml-auto {
   margin-left: auto;
@@ -37,7 +41,13 @@ a {
 /* BUTTONS */
 .btn {
   padding: 5px 10px;
+  border: 1px solid;
   border-radius: 5px;
+}
+.btn img {
+  width: calc(16px* 1.5);
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 /* COLORS */
@@ -49,8 +59,27 @@ a {
   background-color: #2e4790;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 0.25rem;
+  /* NAV */
+}
+header .menu {
+  display: flex;
+  align-items: baseline;
+}
+header .menu li {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+header .menu .btn {
+  color: #2e4790;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  color: #4d3a1d;
+  color: #58402c;
 }

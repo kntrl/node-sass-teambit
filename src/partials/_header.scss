@@ -1,0 +1,18 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0 0.25rem;
+	/* NAV */
+	.menu {
+		display: flex;
+		align-items: baseline;
+		li {
+			margin: $li-margin;
+			font-weight: bold;
+		}
+		.btn {
+			color: $secondary;
+		}
+	}
+}

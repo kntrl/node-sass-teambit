@@ -19,6 +19,10 @@ a {
 	max-width: $container_maxwidth;
 	margin: 0 auto;
 }
+
+.is-divider {
+	border-bottom: 1px solid $brand_color;
+}
 /* margins */
 .ml-auto {
 	margin-left: auto;
@@ -36,7 +40,13 @@ a {
 /* BUTTONS */
 .btn {
 	padding: $btn_padding;
+	border: 1px solid;
 	border-radius: $btn_radius;
+	img {
+		width: calc(#{$font_size}* 1.5);
+		vertical-align: middle;
+		margin-right: 5px;
+	}
 }
 
 /* COLORS */
