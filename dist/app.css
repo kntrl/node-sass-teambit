@@ -119,6 +119,35 @@ main .jumbotron .teaser .sign-up p,
 main .jumbotron .illustration .sign-up p {
   padding-top: 1rem;
 }
+main .before-after .before-teambit {
+  padding-bottom: 4rem;
+}
+main .before-after .after-teambit {
+  padding: 4rem;
+}
+main .before-after .gallery {
+  padding: 4rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .before-after .gallery div img {
+  height: 100px;
+  width: auto;
+}
+main .before-after .gallery div .caption {
+  font-size: 0.85rem;
+  padding-top: 2rem;
+}
+main .before-after .gallery div.full-width {
+  flex-basis: 100%;
+}
+main .before-after .gallery div.full-width img {
+  margin-top: 4rem;
+  height: 350px;
+  width: auto;
+}
 
 body {
   font-family: "Source Sans Pro", sans-serif;
