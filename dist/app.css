@@ -21,6 +21,7 @@ img {
 /* layout */
 .container {
   max-width: 1440px;
+  padding: 0 1rem;
   margin: 0 auto;
 }
 
@@ -80,7 +81,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0 0.25rem;
+  padding: 1rem 0rem 0.25rem;
   /* NAV */
 }
 header .menu {
@@ -97,56 +98,90 @@ header .menu .btn {
 
 main > div,
 main > section {
-  padding: 4rem 0px;
+  padding: 4rem 0rem;
 }
-main .jumbotron {
+
+.jumbotron {
   display: flex;
+  padding: 4rem 0rem;
 }
-main .jumbotron .teaser,
-main .jumbotron .illustration {
+.jumbotron .teaser {
   flex-basis: 50%;
 }
-main .jumbotron .teaser .sub-title,
-main .jumbotron .illustration .sub-title {
+.jumbotron .teaser .sub-title {
   font-size: 1.35rem;
   margin: 1rem 0 3rem;
 }
-main .jumbotron .teaser .sign-up,
-main .jumbotron .illustration .sign-up {
+.jumbotron .teaser .sign-up {
   font-size: calc(13.6px);
 }
-main .jumbotron .teaser .sign-up p,
-main .jumbotron .illustration .sign-up p {
+.jumbotron .teaser .sign-up p {
   padding-top: 1rem;
 }
-main .before-after .before-teambit {
-  padding-bottom: 4rem;
+.jumbotron .illustration {
+  flex-basis: 50%;
 }
-main .before-after .after-teambit {
-  padding: 4rem;
+
+.before-after .after-teambit {
+  padding: 4rem 0rem;
 }
-main .before-after .gallery {
-  padding: 4rem;
+.before-after .gallery {
+  padding: 4rem 0rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
 }
-main .before-after .gallery div img {
+.before-after .gallery > div {
+  margin-bottom: 2rem;
+  flex-basis: 28%;
+}
+.before-after .gallery > div img {
   height: 100px;
   width: auto;
 }
-main .before-after .gallery div .caption {
+.before-after .gallery > div .caption {
   font-size: 0.85rem;
   padding-top: 2rem;
 }
-main .before-after .gallery div.full-width {
+.before-after .gallery > div.full-width {
   flex-basis: 100%;
+  margin-bottom: 0;
 }
-main .before-after .gallery div.full-width img {
-  margin-top: 4rem;
+.before-after .gallery > div.full-width img {
   height: 350px;
   width: auto;
+}
+
+.features .feature {
+  max-width: 1440px;
+  margin-bottom: 2rem;
+  display: flex;
+}
+.features .feature__right {
+  margin-left: auto;
+}
+.features .feature .preview {
+  flex-basis: 70%;
+}
+.features .feature .desc {
+  flex-basis: 30%;
+  margin-top: 1rem;
+}
+.features .feature .desc h2 {
+  margin-bottom: 3rem;
+}
+.features .feature .desc p {
+  margin-bottom: 2rem;
+}
+.features .feature .desc a {
+  display: inline-block;
+  color: #2e4790;
+  margin-bottom: 2rem;
+}
+.features .feature .desc p,
+.features .feature .desc a {
+  font-size: 1.25rem;
 }
 
 body {

@@ -1,59 +1,96 @@
 main {
 	> div,
 	> section {
-		padding: $content-block-padding 0px;
+		padding: $content-block-padding;
 	}
+}
 
-	.jumbotron {
+// JUMBOTRON
+.jumbotron {
+	display: flex;
+	padding: $content-block-padding;
+	.teaser {
+		flex-basis: 50%;
+		.sub-title {
+			font-size: 1.35rem;
+			margin: 1rem 0 3rem;
+		}
+		.sign-up {
+			font-size: calc(#{$font_size * 0.85});
+			p {
+				padding-top: 1rem;
+			}
+		}
+	}
+	.illustration {
+		flex-basis: 50%;
+	}
+}
+
+// SECTIONS
+// before-after
+.before-after {
+	.after-teambit {
+		padding: $content-block-padding;
+	}
+	.gallery {
+		padding: $content-block-padding;
+
 		display: flex;
-		.teaser,
-		.illustration {
-			flex-basis: 50%;
-			.sub-title {
-				font-size: 1.35rem;
-				margin: 1rem 0 3rem;
+		flex-flow: row wrap;
+		justify-content: space-evenly;
+		align-items: center;
+		> div {
+			margin-bottom: 2rem;
+			flex-basis: 28%;
+			img {
+				height: 100px;
+				width: auto;
 			}
-			.sign-up {
-				font-size: calc(#{$font_size * 0.85});
-				p {
-					padding-top: 1rem;
-				}
+			.caption {
+				font-size: 0.85rem;
+				padding-top: 2rem;
 			}
-		}
-	}
-
-	.before-after {
-		.before-teambit {
-			padding-bottom: $content-block-padding;
-		}
-		.after-teambit {
-			padding: $content-block-padding;
-		}
-		.gallery {
-			padding: $content-block-padding;
-
-			display: flex;
-			flex-flow: row wrap;
-			justify-content: space-evenly;
-			align-items: center;
-			div {
+			&.full-width {
+				flex-basis: 100%;
+				margin-bottom: 0;
 				img {
-					height: 100px;
+					height: 350px;
 					width: auto;
 				}
-				.caption {
-					font-size: 0.85rem;
-					padding-top: 2rem;
-				}
-				&.full-width {
-					flex-basis: 100%;
-					img {
-						margin-top: 4rem;
-						height: 350px;
-						width: auto;
-					}
-				}
 			}
+		}
+	}
+}
+
+//features
+.features .feature {
+	max-width: $container_maxwidth;
+	margin-bottom: 2rem;
+	display: flex;
+	&__right {
+		margin-left: auto;
+	}
+	.preview {
+		flex-basis: 70%;
+	}
+	.desc {
+		flex-basis: 30%;
+		margin-top: 1rem;
+		h2 {
+			margin-bottom: 3rem;
+		}
+		p {
+			margin-bottom: 2rem;
+		}
+		a {
+			display: inline-block;
+			color: $secondary;
+			margin-bottom: 2rem;
+		}
+		p,
+		a {
+			font-size: 1.25rem;
 		}
 	}
 }
