@@ -29,7 +29,7 @@ img {
 }
 
 .is-divider {
-  border-bottom: 1px solid #58402c;
+  border-bottom: 1px solid #7f14d4;
 }
 
 /* margins */
@@ -66,18 +66,18 @@ h1 {
   padding-bottom: 2px;
 }
 .btn.secondary {
-  background-color: #2e4790;
+  background-color: #3e14e9;
   color: #fff;
-  border-color: #2e4790;
+  border-color: #3e14e9;
 }
 
 /* COLORS */
 .primary {
-  background-color: #ffe7d2;
+  background-color: #0414b3;
 }
 
 .secondary {
-  background-color: #2e4790;
+  background-color: #3e14e9;
 }
 
 header {
@@ -96,7 +96,7 @@ header .menu li {
   font-weight: bold;
 }
 header .menu .btn {
-  color: #2e4790;
+  color: #3e14e9;
 }
 
 main > div,
@@ -180,7 +180,7 @@ main > section {
 }
 .features .feature .desc a {
   display: inline-block;
-  color: #2e4790;
+  color: #3e14e9;
   margin-bottom: 2rem;
 }
 .features .feature .desc p,
@@ -189,7 +189,7 @@ main > section {
 }
 
 .vision {
-  background-color: #ffe7d2;
+  background-color: #0414b3;
 }
 .vision h2 {
   font-size: 3rem;
@@ -202,7 +202,7 @@ main > section {
   margin: 4rem 0rem;
   font-size: 0.95rem;
   background-color: #fff;
-  border: 1px solid #2e4790;
+  border: 1px solid #3e14e9;
   border-radius: 10px;
   padding: 1rem;
 }
@@ -221,7 +221,7 @@ main > section {
   display: inline-block;
 }
 .vision .message .founders .name {
-  color: #2e4790;
+  color: #3e14e9;
 }
 .vision .message .founders .role {
   font-size: 0.85rem;
@@ -254,16 +254,16 @@ footer .resume .desc {
   font-weight: bold;
 }
 footer .resume .desc span {
-  color: #2e4790;
+  color: #3e14e9;
   font-size: 0.9rem;
 }
 footer .site-map {
   flex-basis: 70%;
-  padding-left: 2rem;
+  padding-left: 4rem;
   display: flex;
 }
 footer .site-map div {
-  flex-basis: 25%;
+  flex-basis: 20%;
 }
 footer .site-map h3 {
   font-size: 1.25rem;
@@ -280,5 +280,5 @@ footer .site-map ul li {
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  color: #58402c;
+  color: #7f14d4;
 }
