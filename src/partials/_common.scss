@@ -22,6 +22,9 @@ img {
 	max-width: $container_maxwidth;
 	padding: 0 1rem;
 	margin: 0 auto;
+	&__small {
+		max-width: calc(#{$container_maxwidth} * 0.55);
+	}
 }
 
 .is-divider {

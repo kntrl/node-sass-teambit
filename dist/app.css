@@ -24,6 +24,9 @@ img {
   padding: 0 1rem;
   margin: 0 auto;
 }
+.container__small {
+  max-width: calc(1440px * 0.55);
+}
 
 .is-divider {
   border-bottom: 1px solid #58402c;
@@ -155,6 +158,7 @@ main > section {
 
 .features .feature {
   max-width: 1440px;
+  padding: 0 1rem;
   margin-bottom: 2rem;
   display: flex;
 }
@@ -182,6 +186,51 @@ main > section {
 .features .feature .desc p,
 .features .feature .desc a {
   font-size: 1.25rem;
+}
+
+.vision {
+  background-color: #ffe7d2;
+}
+.vision h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.vision h2 img {
+  width: 2rem;
+}
+.vision .message {
+  margin: 4rem 0rem;
+  font-size: 0.95rem;
+  background-color: #fff;
+  border: 1px solid #2e4790;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.vision .message p {
+  margin-bottom: 1rem;
+}
+.vision .message .founders {
+  display: flex;
+  align-items: center;
+}
+.vision .message .founders img {
+  width: 50px;
+  margin-right: 1rem;
+}
+.vision .message .founders .info {
+  display: inline-block;
+}
+.vision .message .founders .name {
+  color: #2e4790;
+}
+.vision .message .founders .role {
+  font-size: 0.85rem;
+}
+.vision .sign-up {
+  font-size: 0.95rem;
+}
+.vision .sign-up p {
+  margin-top: 1rem;
 }
 
 body {

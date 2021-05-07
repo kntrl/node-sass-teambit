@@ -66,6 +66,7 @@ main {
 //features
 .features .feature {
 	max-width: $container_maxwidth;
+	padding: 0 1rem;
 	margin-bottom: 2rem;
 	display: flex;
 	&__right {
@@ -91,6 +92,53 @@ main {
 		p,
 		a {
 			font-size: 1.25rem;
+		}
+	}
+}
+
+// vision
+.vision {
+	background-color: $primary;
+	h2 {
+		font-size: 3rem;
+		line-height: 4rem;
+		img {
+			width: 2rem;
+		}
+	}
+	.message {
+		margin: $content-block-padding;
+		font-size: 0.95rem;
+		background-color: #fff;
+		border: 1px solid $secondary;
+		border-radius: 10px;
+		padding: 1rem;
+		p {
+			margin-bottom: 1rem;
+		}
+		.founders {
+			display: flex;
+			align-items: center;
+			img {
+				width: 50px;
+				margin-right: 1rem;
+			}
+			.info {
+				display: inline-block;
+			}
+			.name {
+				color: $secondary;
+			}
+			.role {
+				font-size: 0.85rem;
+			}
+		}
+	}
+	.sign-up {
+		font-size: 0.95rem;
+
+		p {
+			margin-top: 1rem;
 		}
 	}
 }
