@@ -1,0 +1,40 @@
+footer {
+	padding: $content-block-padding;
+	.flex {
+		display: flex;
+	}
+	.resume {
+		flex-basis: 30%;
+		display: flex;
+		.logo img {
+			width: 100px;
+			padding: 1rem;
+		}
+		.desc {
+			font-size: 1.15rem;
+			font-weight: bold;
+			span {
+				color: $secondary;
+				font-size: 0.9rem;
+			}
+		}
+	}
+	.site-map {
+		flex-basis: 70%;
+		display: flex;
+		div {
+			flex-basis: 25%;
+		}
+		h3 {
+			font-size: 1.25rem;
+		}
+		ul {
+			margin-top: 2rem;
+			li {
+				line-height: 2rem;
+				font-weight: bold;
+				font-size: 0.95rem;
+			}
+		}
+	}
+}

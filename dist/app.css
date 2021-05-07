@@ -1,240 +1,281 @@
 /* RESETS */
 * {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 img {
-  width: 100%;
+	width: 100%;
 }
 
 /* layout */
 .container {
-  max-width: 1440px;
-  padding: 0 1rem;
-  margin: 0 auto;
+	max-width: 1440px;
+	padding: 0 1rem;
+	margin: 0 auto;
 }
 .container__small {
-  max-width: calc(1440px * 0.55);
+	max-width: calc(1440px * 0.55);
 }
 
 .is-divider {
-  border-bottom: 1px solid #58402c;
+	border-bottom: 1px solid #58402c;
 }
 
 /* margins */
 .ml-auto {
-  margin-left: auto;
+	margin-left: auto;
 }
 
 .mr-auto {
-  margin-right: auto;
+	margin-right: auto;
 }
 
 /* TYPOGRAPHY */
 h1 {
-  font-size: calc(16px* 3);
+	font-size: calc(16px * 3);
 }
 
 /*txt alignment*/
 .txt-center {
-  text-align: center;
+	text-align: center;
 }
 
 /* BUTTONS */
 .btn {
-  padding: 6px 10px;
-  border: 1px solid;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
+	padding: 6px 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
 }
 .btn img {
-  width: calc(16px* 1.5);
-  vertical-align: middle;
-  margin-right: 5px;
-  padding-bottom: 2px;
+	width: calc(16px * 1.5);
+	vertical-align: middle;
+	margin-right: 5px;
+	padding-bottom: 2px;
 }
 .btn.secondary {
-  background-color: #2e4790;
-  color: #fff;
-  border-color: #2e4790;
+	background-color: #2e4790;
+	color: #fff;
+	border-color: #2e4790;
 }
 
 /* COLORS */
 .primary {
-  background-color: #ffe7d2;
+	background-color: #ffe7d2;
 }
 
 .secondary {
-  background-color: #2e4790;
+	background-color: #2e4790;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0rem 0.25rem;
-  /* NAV */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+	/* NAV */
 }
 header .menu {
-  display: flex;
-  align-items: baseline;
+	display: flex;
+	align-items: baseline;
 }
 header .menu li {
-  margin: 0.5rem;
-  font-weight: bold;
+	margin: 0.5rem;
+	font-weight: bold;
 }
 header .menu .btn {
-  color: #2e4790;
+	color: #2e4790;
 }
 
 main > div,
 main > section {
-  padding: 4rem 0rem;
+	padding: 4rem 0rem;
 }
 
 .jumbotron {
-  display: flex;
-  padding: 4rem 0rem;
+	display: flex;
+	padding: 4rem 0rem;
 }
 .jumbotron .teaser {
-  flex-basis: 50%;
+	flex-basis: 50%;
 }
 .jumbotron .teaser .sub-title {
-  font-size: 1.35rem;
-  margin: 1rem 0 3rem;
+	font-size: 1.35rem;
+	margin: 1rem 0 3rem;
 }
 .jumbotron .teaser .sign-up {
-  font-size: calc(13.6px);
+	font-size: calc(13.6px);
 }
 .jumbotron .teaser .sign-up p {
-  padding-top: 1rem;
+	padding-top: 1rem;
 }
 .jumbotron .illustration {
-  flex-basis: 50%;
+	flex-basis: 50%;
 }
 
 .before-after .after-teambit {
-  padding: 4rem 0rem;
+	padding: 4rem 0rem;
 }
 .before-after .gallery {
-  padding: 4rem 0rem;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  align-items: center;
+	padding: 4rem 0rem;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
 }
 .before-after .gallery > div {
-  margin-bottom: 2rem;
-  flex-basis: 28%;
+	margin-bottom: 2rem;
+	flex-basis: 28%;
 }
 .before-after .gallery > div img {
-  height: 100px;
-  width: auto;
+	height: 100px;
+	width: auto;
 }
 .before-after .gallery > div .caption {
-  font-size: 0.85rem;
-  padding-top: 2rem;
+	font-size: 0.85rem;
+	padding-top: 2rem;
 }
 .before-after .gallery > div.full-width {
-  flex-basis: 100%;
-  margin-bottom: 0;
+	flex-basis: 100%;
+	margin-bottom: 0;
 }
 .before-after .gallery > div.full-width img {
-  height: 350px;
-  width: auto;
+	height: 350px;
+	width: auto;
 }
 
 .features .feature {
-  max-width: 1440px;
-  padding: 0 1rem;
-  margin-bottom: 2rem;
-  display: flex;
+	max-width: 1440px;
+	padding: 0 1rem;
+	margin-bottom: 2rem;
+	display: flex;
 }
 .features .feature__right {
-  margin-left: auto;
+	margin-left: auto;
 }
 .features .feature .preview {
-  flex-basis: 70%;
+	flex-basis: 70%;
 }
 .features .feature .desc {
-  flex-basis: 30%;
-  margin-top: 1rem;
+	flex-basis: 30%;
+	margin-top: 1rem;
 }
 .features .feature .desc h2 {
-  margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 .features .feature .desc p {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 .features .feature .desc a {
-  display: inline-block;
-  color: #2e4790;
-  margin-bottom: 2rem;
+	display: inline-block;
+	color: #2e4790;
+	margin-bottom: 2rem;
 }
 .features .feature .desc p,
 .features .feature .desc a {
-  font-size: 1.25rem;
+	font-size: 1.25rem;
 }
 
 .vision {
-  background-color: #ffe7d2;
+	background-color: #ffe7d2;
 }
 .vision h2 {
-  font-size: 3rem;
-  line-height: 4rem;
+	font-size: 3rem;
+	line-height: 4rem;
 }
 .vision h2 img {
-  width: 2rem;
+	width: 2rem;
 }
 .vision .message {
-  margin: 4rem 0rem;
-  font-size: 0.95rem;
-  background-color: #fff;
-  border: 1px solid #2e4790;
-  border-radius: 10px;
-  padding: 1rem;
+	margin: 4rem 0rem;
+	font-size: 0.95rem;
+	background-color: #fff;
+	border: 1px solid #2e4790;
+	border-radius: 10px;
+	padding: 1rem;
 }
 .vision .message p {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 .vision .message .founders {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 .vision .message .founders img {
-  width: 50px;
-  margin-right: 1rem;
+	width: 50px;
+	margin-right: 1rem;
 }
 .vision .message .founders .info {
-  display: inline-block;
+	display: inline-block;
 }
 .vision .message .founders .name {
-  color: #2e4790;
+	color: #2e4790;
 }
 .vision .message .founders .role {
-  font-size: 0.85rem;
+	font-size: 0.85rem;
 }
 .vision .sign-up {
-  font-size: 0.95rem;
+	font-size: 0.95rem;
 }
 .vision .sign-up p {
-  margin-top: 1rem;
+	margin-top: 1rem;
+}
+
+footer {
+	padding: 4rem 0rem;
+}
+footer .flex {
+	display: flex;
+}
+footer .resume {
+	flex-basis: 30%;
+	display: flex;
+}
+footer .resume .logo img {
+	width: 100px;
+	padding: 1rem;
+}
+footer .resume .desc {
+	font-size: 1.15rem;
+	font-weight: bold;
+}
+footer .resume .desc span {
+	color: #2e4790;
+	font-size: 0.9rem;
+}
+footer .site-map {
+	flex-basis: 70%;
+	display: flex;
+}
+footer .site-map div {
+	flex-basis: 25%;
+}
+footer .site-map h3 {
+	font-size: 1.25rem;
+}
+footer .site-map ul {
+	margin-top: 2rem;
+}
+footer .site-map ul li {
+	line-height: 2rem;
+	font-weight: bold;
+	font-size: 0.95rem;
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  color: #58402c;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 16px;
+	color: #58402c;
 }
