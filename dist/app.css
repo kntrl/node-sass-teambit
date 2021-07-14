@@ -276,6 +276,9 @@ footer .site-map ul li {
   font-weight: bold;
   font-size: 0.95rem;
 }
+footer .site-map .blog-feed li:not(:first-child) {
+  margin: 0.5rem 0;
+}
 
 body {
   font-family: "Source Sans Pro", sans-serif;

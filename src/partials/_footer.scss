@@ -39,5 +39,9 @@ footer {
 				font-size: 0.95rem;
 			}
 		}
+
+		.blog-feed li:not(:first-child) {
+			margin: 0.5rem 0;
+		}
 	}
 }
